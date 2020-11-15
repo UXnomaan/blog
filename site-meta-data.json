@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "Full Snack Overengineered Life",
+  "siteUrl": "https://delog-w3layouts.netlify.app",
+  "description": "Website of Nomaan Ahgharian - A Chicago based Software Engineer and UXer",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Hi! I'm Nomaan",
+    "description": "I am a software engineer based in Greater Chicago, IL who solves life problems by overengineer them. <br /> React and Node are my weapon of choice."
   }
 }
