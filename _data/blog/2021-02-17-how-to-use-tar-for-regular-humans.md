@@ -14,19 +14,16 @@ tar --gzip --create --file name.tar.gz --directory ./path/to/directory .
 ```
 
 Short form: 
-
 ```
-tar -zcf name.tar.gz --directory ./path/to/directory .
+tar -zcf name.tar.gz -C ./path/to/directory .
 ```
 
 Now that a tar file, you can untar it by: 
-
 ```
 tar --extract --file name.tar.gz --directory ./path/to/directory
 ```
 
 Short form: 
-
 ```
 tar -xf name.tar.gz -C ./path/to/directory
 ```
