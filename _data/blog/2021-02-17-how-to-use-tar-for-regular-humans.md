@@ -14,23 +14,20 @@ tar --gzip --create --file name.tar.gz --directory ./path/to/directory .
 ```
 
 Short form: 
-
 ```
-tar -zcf name.tar.gz --directory ./path/to/directory .
+tar -zcf name.tar.gz -C ./path/to/directory .
 ```
 
-Now that a tar file, you can untar it by: 
-
+Now that you have a tar file, you can untar it by: 
 ```
 tar --extract --file name.tar.gz --directory ./path/to/directory
 ```
 
 Short form: 
-
 ```
 tar -xf name.tar.gz -C ./path/to/directory
 ```
 
 You need to make sure the directory exists when you are extracting it. 
 
-🤫 Here is a little secret. use man to understand command flags. Try `man tar` and see the explanation for each flag.
+🤔 Here is a little secret. use man to understand command flags. Try `man tar` and see the explanation for each flag.
