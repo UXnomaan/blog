@@ -2,8 +2,8 @@
 template: BlogPost
 path: /how-to-format-an-sd-card-to-fat32-on-a-mac-without-a-virtual-machine
 date: 2020-07-06T01:24:00.000Z
-title: FAT32 format on your Mac
-thumbnail: /assets/drive.png
+title: 'format a disk as FAT32 on your Mac, no Windows required'
+thumbnail: /assets/Group 4.png
 ---
 If you have a need to format your SD card to FAT32, in my case following trying to flash [OpenIP](https://github.com/openipcamera/openipc-firmware) to WYZE camera, you can do it right from your mac.
 
