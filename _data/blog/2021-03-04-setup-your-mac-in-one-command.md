@@ -7,7 +7,7 @@ thumbnail: /assets/Mac Setup.png
 ---
 If you have more than one laptop or unlucky like me and end up having your laptop have issues, you want to make sure setting up your laptop doesn't take a lot of time. 
 
-I rely on [Homebrew](https://brew.sh) to install any software I need. This has several benefits, you do not need to click next or go through a GUI to install a package, and most importantly, when you have one computer fully setup, you can install the same packages easily on other machines and get it up and running in a matter of minutes. Even if you do not use brew to install your software, `mas` (Mac App Store) [https://github.com/mas-cli/mas] integration, can record what you have installed through the AppStore and help you install those on a new laptop. 
+I rely on [Homebrew](https://brew.sh) to install any software I need. This has several benefits, you do not need to click next or go through a GUI to install a package, and most importantly, when you have one computer fully setup, you can install the same packages easily on other machines and get it up and running in a matter of minutes. Even if you do not use brew to install your software, [mas](https://github.com/mas-cli/mas) (Mac App Store)  integration, can record what you have installed through the AppStore and help you install those on a new laptop. 
 
 If you don't have brew installed: 
 
