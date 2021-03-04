@@ -3,6 +3,7 @@ template: BlogPost
 path: /mac-setup
 date: 2021-03-04T03:26:08.444Z
 title: 'Setup your Mac in one command '
+thumbnail: /assets/Mac Setup.png
 ---
 If you have more than one laptop or unlucky like me and end up having your laptop have issues, you want to make sure setting up your laptop doesn't take a lot of time. 
 
@@ -21,7 +22,7 @@ brew bundle dump --describe
 
 This will create a Brewfile in the directory that it's run. `--describe` flag will add a comment to each package as to what the package is for; This helps if you don't recognize some of the names. 
 
-Here's my [Brewfile](https://github.com/UXnomaan/mac-setup/blob/master/Brewfile)
+Here's my [Brewfile](https://github.com/UXnomaan/mac-setup/blob/master/Brewfile).
 
 After you have the file, move it to the computer you are trying to setup. This can be through iClould or physical USB drives. 
 
