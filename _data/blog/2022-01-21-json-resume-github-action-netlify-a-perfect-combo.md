@@ -14,3 +14,10 @@ JSON resume project has a CLI that lets you generate PDF and HTML version of you
 This approach makes it extremely easy to keep an updated resume, try different themes and spend 0 minutes aligning! 
 
 You can see my resume at: <https://resume.nomaan.tech/> and the PDF version at: <https://resume.nomaan.tech/ahgharian-nomaan-resume.pdf>
+<center>
+<object data="https://resume.nomaan.tech/ahgharian-nomaan-resume.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://resume.nomaan.tech/ahgharian-nomaan-resume.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://resume.nomaan.tech/ahgharian-nomaan-resume.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+</center>
