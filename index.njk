@@ -3,13 +3,16 @@ layout: layouts/base.njk
 section: home
 ---
 <div class="home-page">
-	<div class="home-page__bg-square"></div>
+  <div class="home-page__bg-square"></div>
 
   <div class="hero">
     <div class="hero__col">
       <h1 class="hero__title gradient-text">{{ home.title }}</h1>
       {% if home.subtitle %}
         <h2 class="hero__subtitle">{{ home.subtitle }}</h2>
+      {% endif %}
+      {% if home.subtitle2 %}
+        <h6 class="hero__subtitle">{{ home.subtitle2 }}</h6>
       {% endif %}
     </div>
     <div class="hero__col">
@@ -27,7 +30,6 @@ section: home
   <h2>Projects</h2>
   {% set projectlist = collections.project %}
   {% include "components/projectlist.njk" %}
-
 
   <hr>
   <h2>Articles</h2>
